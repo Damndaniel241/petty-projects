@@ -1,0 +1,52 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.box{
+    
+    /* background-color: aqua; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* color: rgb(189, 15, 15); */
+    /* font-size:5rem; */
+}
+
+.answer-input{
+    /* flex-grow:; */
+    background-color: aqua;
+    /* display: block; */
+    width:100px;
+    height:100px;
+    /* padding: 10px; */
+    color: rgb(189, 15, 15);
+
+
+    font-size: 50px;
+}
+
+
+input::placeholder{
+    font-size: 50px;
+    color: rgb(189, 15, 15);
+    text-align: center;
+    
+}
+
+.row-flex{
+    display: flex;
+    gap: 1em;
+
+}
+
+.container-flex{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 1em;
+}

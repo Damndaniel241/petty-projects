@@ -1,0 +1,61 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-input {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    color: rgb(189, 15, 15);
+    font-size: 50px;
+    text-align: center; /* Center the entered text */
+    border: none; /* Optional: remove borders if you prefer */
+    padding: 0; /* Remove padding to align text properly */
+}
+
+input::placeholder {
+    font-size: 50px;
+    color: rgb(189, 15, 15);
+    text-align: center; /* Center the placeholder text */
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row-flex{
+    display: flex;
+    gap: 1em;
+
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#check{
+    padding: 20px;
+    /* display: none; */
+}
+
+.player{
+    font-size: 25px;
+}
+
+.hidden{
+    display: none;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}

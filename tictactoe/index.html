@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="tic.css" />
+    <title>tictactoe - game</title>
+  </head>
+  <body>
+    <div id="gamebox" class="container-flex">
+      <div class="row-flex">
+        <div  class="box"><input id="1-1" class="answer-input" type="text" placeholder="" value="" /></div>
+        <div  class="box"><input id="1-2" class="answer-input" type="text" placeholder="" value="" /></div>
+        <div  class="box"><input id="1-3" class="answer-input" type="text" placeholder="" value="" /></div>
+        
+      </div>
+      <div class="row-flex">
+        <div  class="box"><input id="2-1" class="answer-input" type="text" placeholder="" value="" /></div>
+        <div  class="box"><input id="2-2" class="answer-input" type="text" placeholder="" value="" /></div>
+        <div  class="box"><input id="2-3" class="answer-input" type="text" placeholder="" value="" /></div>
+      </div>
+      <div class="row-flex">
+        <div  class="box"><input id="3-1" class="answer-input" type="text" placeholder="" value="" /></div>
+        <div  class="box"><input id="3-2" class="answer-input" type="text" placeholder="" value="" /></div>
+        <div  class="box"><input id="3-3" class="answer-input" type="text" placeholder="" value="" /></div>
+      </div>
+      
+    <button id="check" class="" type="button" onclick="check()" disabled>check </button>
+    </div>
+
+    <div class="d-flex">
+    <div id="players" class="player ">player x</div>
+    <!-- <div id="player-o" class="player hidden">player o </div> -->
+    </div>
+
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
